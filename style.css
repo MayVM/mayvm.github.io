@@ -89,6 +89,26 @@ html, body {
     height: 50vh;
 }
 
+.footer {
+    height: 45px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(49, 49, 49);
+}
+
+.footer a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 14px;
+}
+/* Old color scheme/layout */
 /* .home {
     background-color: #d52d00;
     margin: 0px;
@@ -122,15 +142,3 @@ html, body {
     border: 1px solid transparent;
 } */
       /* Footer */ 
-.footer {
-    height: 45px;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(49, 49, 49);
-    color: white;
-    text-align: left;
-    padding-top: 30px;
-    padding-left: 10px;
-}
