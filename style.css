@@ -1,144 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-/* The navigation bar */
-html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
+body {
+  background: #222;
+  margin: 0rem;
+  min-height: 100vh;
+  font-family: Futura, sans-serif;
 }
 
-.navbar {
-    overflow: hidden;
-    background-color: rgb(49, 49, 49);
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
-    height: 2.7rem;
-    z-index: 999;
+#canvas, #text {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 
-  /* Links inside the navbar */
-.navbar a {
-    float: right;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 0.6rem;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.4rem;
+#text {
+  min-height: 100vh;
+  width: 100vw;
+  z-index: 1;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 8vmin;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
-.navbar logo {
-    float: left;
-    display: block;
-    color: rgb(199, 187, 255);
-    text-align: center;
-    padding-left: 0.5rem;
-    text-decoration: none;
-    font-family: 'Pacifico', cursive;
-    font-size: 1.5rem;
+#text h1 {
+  opacity: 0.9;
 }
-
-  /* Change background on mouse-over */
-.navbar a:hover {
-    background: rgb(199, 187, 255);
-    /* background: rgb(214, 205, 255); */
-    color: white;
-}
-
-  /* Main content */
-.main {
-    margin-top: 2.5rem; /*Add a top margin to avoid content overlay*/
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.2rem;
-    width: 100%;
-}
-
-.homeimg {
-    position: relative;
-    text-decoration: none;
-    border: 0px;
-}
-
-.home {
-    background-color: #ffffff;
-    margin: 0px;
-    padding-left: 0.5rem;
-    border: 1px solid transparent;
-    min-height: 15rem;
-}
-
-.aboutme {
-    margin: 0px;
-    padding-left: 0.5rem;
-    border: 1px solid transparent;
-    background-color: #d3ccff;
-    min-height: 25rem;
-}
-.skills {
-    background-color: #ffffff;
-    margin: 0px;
-    padding-left: 0.5rem;
-    border: 1px solid transparent;
-    min-height: 25rem;
-}
-.projects {
-    background-color: #d3ccff;
-    margin: 0px;
-    padding-left: 0.5rem;
-    border: 1px solid transparent;
-    min-height: 25rem;
-}
-
-
-.footer {
-    height: 2rem;
-    bottom: 0;
-    position: relative;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(49, 49, 49);
-}
-
-.footer div {
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-}
-/* Deprecated color scheme/layout */
-/* .home {
-    background-color: #d52d00;
-    margin: 0px;
-    padding-left: 10px;
-    border: 1px solid transparent;
-    min-height: 200px;
-}
-
-.aboutme {
-    margin: 0px;
-    padding-left: 10px;
-    border: 1px solid transparent;
-    background-color: #FF9B56;
-}
-.skills {
-    background-color: #ffffff;
-    margin: 0px;
-    padding-left: 10px;
-    border: 1px solid transparent;
-}
-.projects {
-    background-color: #d462a6;
-    margin: 0px;
-    padding-left: 10px;
-    border: 1px solid transparent;
-}
-.contact {
-    background-color: #A40062;
-    margin: 0px;
-    padding-left: 10px;
-    border: 1px solid transparent;
-} */
-      /* Footer */ 
