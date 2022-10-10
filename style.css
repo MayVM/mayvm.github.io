@@ -5,7 +5,7 @@ body {
   font-family: Futura, sans-serif;
 }
 
-#canvas, #text {
+#canvas{
   position: absolute;
   display: block;
   top: 0;
@@ -13,19 +13,64 @@ body {
   z-index: -1;
 }
 
-#text {
-  min-height: 100vh;
-  width: 100vw;
-  z-index: 1;
-  color: #fff;
-  text-transform: uppercase;
-  font-size: 8vmin;
+.navbar {
+  flex: 0;
+  background-color: rgb(49, 49, 49);
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  left: 0;
+  width: 100%; /* Full width */
+  z-index: 999;
+  justify-content: space-evenly;
   display: flex;
   align-items: center;
-  justify-content: center;
+  opacity: 95%;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  align-items: flex-start;
+  display: block;
+  color: #f2f2f2;
+  padding: 0.6rem;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: space-evenly;
+  width: 100%;
   text-align: center;
 }
 
-#text h1 {
+.navbar a:hover {
+  background: rgb(199, 187, 255);
+  /* background: rgb(214, 205, 255); */
+  color: white;
+}
+
+#content {
+  min-height: 100vh;
+  width: 100vw;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 8vmin;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#content h1 {
   opacity: 0.9;
+  margin: 0;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  gap: 4vw;
+  width: 100%
+}
+
+.images img {
+  width: 15vw;
 }
