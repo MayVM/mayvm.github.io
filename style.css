@@ -86,15 +86,25 @@ body {
   font-size: 2.5vmin;
 }
 
-.aboutme h1{
+.aboutmesection {
+  padding-inline: 1vw;
+  color: white;
+  text-align: left;
+  font-size: 2.5vmin;
+  background-color: rgb(51, 50, 50);
+  opacity: 95%;
+  height: 100%;
+}
+
+.aboutmesection h1{
   text-align: center;
 }
 
-.aboutme p {
+.aboutmesection p {
   text-align: left;
 }
 
-.aboutme img {
+.aboutmesection img {
   float: right;
   width: 35vw;
 }
@@ -107,14 +117,28 @@ body {
   font-size: 2.5vmin;
 }
 
-.skills h1{
+.skillsection h1{
   text-align: center;
 }
 
-.skills img{
+.skillsection {
+  padding-inline: 1vw;
+  color: white;
+  text-align: left;
+  font-size: 2.5vmin;
+  background-color: rgb(51, 50, 50);
+  opacity: 95%;
+  height: 100%;
+}
+
+.skillsection img{
   float: right;
   position: relative;
   width: 40vw;
+}
+
+.skillsection p {
+  text-align: left;
 }
 
 /* Projects */
@@ -140,7 +164,6 @@ body {
   background-color: rgb(51, 50, 50);
   opacity: 95%;
   height: 100%;
-
 }
 
 .project p {
