@@ -4,7 +4,7 @@ body {
   min-height: 100vh;
   font-family: Futura, sans-serif;
 }
-
+/* Background */
 #canvas{
   position: absolute;
   display: block;
@@ -13,6 +13,7 @@ body {
   z-index: -1;
 }
 
+/* Navigation bar */
 .navbar {
   flex: 0;
   background-color: rgb(49, 49, 49);
@@ -44,9 +45,11 @@ body {
   background: rgb(199, 187, 255);
   /* background: rgb(214, 205, 255); */
   color: white;
+  height: 100%;
 }
 
-#content {
+/* Main content */
+#homecontent {
   min-height: 100vh;
   width: 100vw;
   color: #fff;
@@ -59,18 +62,106 @@ body {
   flex-direction: column;
 }
 
-#content h1 {
+#homecontent h1 {
   opacity: 0.9;
   margin: 0;
 }
 
-.images {
+.homeimages {
   display: flex;
   justify-content: center;
   gap: 4vw;
   width: 100%
 }
 
-.images img {
+.homeimages img {
   width: 15vw;
+}
+
+/* About me */
+.aboutme {
+  padding: 4vw;
+  color: white;
+  text-align: left;
+  font-size: 2.5vmin;
+}
+
+.aboutme h1{
+  text-align: center;
+}
+
+.aboutme p {
+  text-align: left;
+}
+
+.aboutme img {
+  float: right;
+  width: 35vw;
+}
+
+/* Skills */
+.skills {
+  padding: 4vw;
+  color: white;
+  text-align: left;
+  font-size: 2.5vmin;
+}
+
+.skills h1{
+  text-align: center;
+}
+
+.skills img{
+  float: right;
+  position: relative;
+  width: 40vw;
+}
+
+/* Projects */
+.projects {
+  padding: 4vw;
+  color: white;
+  text-align: left;
+  font-size: 2.5vmin;
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+}
+
+.projects h1 {
+  text-align: center;
+}
+
+.project {
+  padding-inline: 1vw;
+  color: white;
+  text-align: left;
+  font-size: 2.5vmin;
+  background-color: rgb(51, 50, 50);
+  opacity: 95%;
+  height: 100%;
+
+}
+
+.project p {
+  padding: 1vw;
+}
+
+.project a:link{
+  color: white;
+}
+.project a:visited{
+  color: white;
+}
+
+.project a:hover{
+  color: rgb(199, 187, 255);
+}
+
+.project img {
+  justify-content: left;
+  width: 10vw;
+  float: left;
+  padding: 1vw;
+  height: 100%;
 }
