@@ -92,7 +92,7 @@ body {
   padding-inline: 1vw;
   color: white;
   text-align: left;
-  font-size: clamp(2.5vmin, 2.5vmin, 3.5vmin);
+  font-size: 2.5vmin;
   background-color: rgb(51, 50, 50);
   opacity: 95%;
   height: 100%;
@@ -104,6 +104,7 @@ body {
 
 .aboutmesection p {
   text-align: left;
+  font-size: clamp(1.2rem, 2.5vw, 2rem);
   
 }
 
@@ -117,7 +118,6 @@ body {
   padding: 4vw;
   color: white;
   text-align: left;
-  font-size: 2.5vmin;
   margin-top: 3rem;
 }
 
@@ -129,7 +129,7 @@ body {
   padding-inline: 1vw;
   color: white;
   text-align: left;
-  font-size: clamp(2.5vmin, 2.5vmin, 3.5vmin);
+  font-size: 2.5vmin;
   background-color: rgb(51, 50, 50);
   opacity: 95%;
   height: 100%;
@@ -143,6 +143,7 @@ body {
 
 .skillsection p {
   text-align: left;
+  font-size: clamp(1.2rem, 2.5vw, 2rem);
 }
 
 /* Projects */
@@ -150,7 +151,7 @@ body {
   padding: 4vw;
   color: white;
   text-align: left;
-  font-size: clamp(2.5vmin, 2.5vmin, 3.5vmin);
+  font-size: clamp(40px, 6vw, 60px);
   display: flex;
   flex-direction: column;
   gap: 2vw;
@@ -173,6 +174,7 @@ body {
 
 .project p {
   padding: 1vw;
+  font-size: clamp(1.2rem, 2.5vw, 2rem);
 }
 
 .project a:link{
