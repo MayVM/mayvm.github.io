@@ -4,6 +4,12 @@ body {
   min-height: 100vh;
   font-family: Futura, sans-serif;
 }
+
+p {
+  text-align: left;
+  font-size: clamp(1.2rem, 2.5vw, 1.5rem);
+}
+
 /* Background */
 #canvas{
   position: absolute;
@@ -102,12 +108,6 @@ body {
   text-align: center;
 }
 
-.aboutmesection p {
-  text-align: left;
-  font-size: clamp(1.2rem, 2.5vw, 2rem);
-  
-}
-
 .aboutmesection img {
   float: right;
   width: 25vw;
@@ -141,11 +141,6 @@ body {
   width: 40vw;
 }
 
-.skillsection p {
-  text-align: left;
-  font-size: clamp(1.2rem, 2.5vw, 2rem);
-}
-
 /* Projects */
 .projects {
   padding: 4vw;
@@ -174,7 +169,7 @@ body {
 
 .project p {
   padding: 1vw;
-  font-size: clamp(1.2rem, 2.5vw, 2rem);
+  font-size: clamp(1.2rem, 2.5vw, 1.5rem);
 }
 
 .project a:link{
