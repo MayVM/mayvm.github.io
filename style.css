@@ -55,6 +55,8 @@ p {
   /* background: rgb(214, 205, 255); */
   color: white;
   height: 100%;
+  transition: 700ms;
+
 }
 
 .currentpage {
@@ -118,7 +120,7 @@ p {
 
 .aboutmesection img {
   float: right;
-  width: 25vw;
+  width: 15vw;
 }
 
 /* Skills */
@@ -147,7 +149,7 @@ p {
 .skillsection img{
   float: right;
   position: relative;
-  width: 40vw;
+  width: 25vw;
 }
 
 /* Projects */
@@ -164,6 +166,7 @@ p {
 
 .projects h1 {
   text-align: center;
+  
 }
 
 .project {
