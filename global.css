@@ -1,0 +1,36 @@
+@import url(nav.css);
+@import url(index.css);
+@import url(aboutme.css);
+@import url(skills.css);
+@import url(projects.css);
+
+body {
+  background: #222;
+  margin: 0rem;
+  min-height: 100vh;
+  font-family: Futura, sans-serif;
+}
+
+p {
+  text-align: left;
+  font-size: clamp(1.2rem, 2.5vw, 1.5rem);
+  padding: 1vw;
+}
+
+/* Background */
+#canvas{
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.currentpage {
+  background-color: rgba(199, 187, 255, 0.861);
+  color: white;
+}
+
+
+
+

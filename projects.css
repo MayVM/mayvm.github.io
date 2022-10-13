@@ -1,0 +1,52 @@
+/* Projects */
+.projects {
+    padding: 4vw;
+    color: white;
+    text-align: left;
+    font-size: clamp(40px, 6vw, 60px);
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    margin-top: 3rem;
+}
+
+.projects h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.project {
+    padding-inline: 1vw;
+    color: white;
+    text-align: left;
+    font-size: 2.5vmin;
+    background-color: rgb(51, 50, 50);
+    opacity: 95%;
+    height: 100%;
+    border-radius: 15px;
+
+}
+
+.project p {
+    padding: 1vw;
+    font-size: clamp(1.2rem, 2.5vw, 1.5rem);
+}
+
+.project a:link{
+    color: white;
+}
+.project a:visited{
+    color: white;
+}
+
+.project a:hover{
+    color: rgb(199, 187, 255);
+}
+
+.project img {
+    justify-content: left;
+    width: 10vw;
+    float: left;
+    padding: 1vw;
+    height: 100%;
+}  

@@ -1,0 +1,28 @@
+/* Skills */
+.skills {
+    padding: 4vw;
+    color: white;
+    text-align: left;
+    margin-top: 3rem;
+}
+
+.skillsection h1{
+    text-align: center;
+}
+
+.skillsection {
+    padding-inline: 1vw;
+    color: white;
+    text-align: left;
+    font-size: 2.5vmin;
+    background-color: rgb(51, 50, 50);
+    opacity: 95%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.skillsection img{
+    float: right;
+    position: relative;
+    width: 25vw;
+}

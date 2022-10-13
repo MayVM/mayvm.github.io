@@ -1,0 +1,38 @@
+/* Navigation bar */
+.navbar {
+    flex: 0;
+    background-color: rgb(49, 49, 49);
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    left: 0;
+    width: 100%; /* Full width */
+    z-index: 999;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    opacity: 95%;
+    margin-bottom: auto;
+    font-weight: bold;
+}
+
+  /* Links inside the navbar */
+.navbar a {
+    align-items: flex-start;
+    display: block;
+    color: #f2f2f2;
+    padding: 0.6rem;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-evenly;
+    width: 100%;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background: rgb(199, 187, 255);
+    /* background: rgb(214, 205, 255); */
+    color: white;
+    height: 100%;
+    transition: 700ms;
+
+}

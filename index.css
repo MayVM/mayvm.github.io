@@ -1,0 +1,29 @@
+/* Main content */
+#homecontent {
+    min-height: 100vh;
+    width: 100vw;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 8vmin;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#homecontent h1 {
+    opacity: 0.9;
+    margin: 0;
+}
+
+.homeimages {
+    display: flex;
+    justify-content: center;
+    gap: 4vw;
+    width: 100%
+}
+
+.homeimages img {
+    width: 15vw;
+}
